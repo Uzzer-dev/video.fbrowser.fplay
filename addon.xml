@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="video.fbrowser.fplay"
+version="0.2.0"
+name="FPlayer Browser support"
+provider-name="Uzzer">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+  <import addon="script.module.simplejson" version="3.16.0"/>
+  <import addon="script.module.codequick" version="0.9.10"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main3_alpha.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">FBrowser - просмотр fxml на kodi</summary>
+  <description lang="en_GB">FBrowser - просмотр fxml на kodi</description>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>  
+  </assets>
+  <news>Полностью переписан, исправлено отображение фильмов и поиск v0.2.0</news>
+</extension>
+</addon>
